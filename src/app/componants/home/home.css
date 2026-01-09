@@ -7,3 +7,27 @@ section{
     align-items: center;
     
 }
+
+.icon-after::after{
+content: "";
+position: absolute;
+width: 120px;
+height: 4px;
+background-color: white;
+left: 30px;
+bottom: 6px;
+}
+
+
+
+.before::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    left:55px;
+    bottom: 9px;
+}
+
+

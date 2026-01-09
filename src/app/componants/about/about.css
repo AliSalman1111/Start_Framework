@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: #1ABC9C;}
+
+    .icon-after::after{
+content: "";
+position: absolute;
+width: 120px;
+height: 4px;
+background-color: white;
+left: 30px;
+bottom: 6px;
+}
+
+
+
+.before::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    left:65px;
+    bottom: 9px;
+}
