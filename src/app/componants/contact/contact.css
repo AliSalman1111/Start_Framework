@@ -1,0 +1,95 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    .icon-after::after{
+content: "";
+position: absolute;
+width: 120px;
+height: 4px;
+background-color: #2C3E50;
+left: 30px;
+bottom: 6px;
+}
+
+
+
+.before::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 4px;
+    background-color: #2C3E50;
+    left:5px;
+    bottom: 9px;
+}
+
+i{
+ 
+    color: #2C3E50 !important;
+}
+
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid rgba(120, 117, 117, 0.642) !important;
+}
+ .form-control:focus{
+    box-shadow: none !important;
+    border-bottom: 1px solid #2C3E50 !important;
+ }
+
+
+ 
+@media screen and (min-width:992px) and (max-width:1200px) {
+   .before::before{
+     left:-10px;
+   }
+      .container{
+    width: 70%;
+    margin: auto;
+}
+}
+
+
+
+@media screen and (min-width:786px) and (max-width:992px) {
+   .before::before{
+     left:20px;
+   }
+}
+
+
+@media screen and (min-width:576px) and (max-width:786px) {
+   .before::before{
+     left:-20px;
+   }
+
+      .container{
+    width: 90%;
+    margin: auto;
+}
+}
+
+
+
+
+@media screen and (max-width:576px)  {
+ .before::before{
+     left:-40px;
+   }
+
+   .container{
+    width: 90%;
+    margin: auto;
+}
+}
